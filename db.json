@@ -1,31 +1,8 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1"
-    },
-    {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "node": [
+    { "id" : "ajson1", "parent" : "#", "text" : "Simple root node" },
+    { "id" : "ajson2", "parent" : "#", "text" : "Root node 2" },
+    { "id" : "ajson3", "parent" : "ajson2", "text" : "Child 1" },
+    { "id" : "ajson4", "parent" : "ajson2", "text" : "Child 2" }
+  ]
 }
