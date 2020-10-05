@@ -1,8 +1,23 @@
 {
   "node": [
-    { "id" : "ajson1", "parent" : "#", "text" : "Simple root node" },
-    { "id" : "ajson2", "parent" : "#", "text" : "Root node 2" },
-    { "id" : "ajson3", "parent" : "ajson2", "text" : "Child 1" },
-    { "id" : "ajson4", "parent" : "ajson2", "text" : "Child 2" }
+    { "id" : "closed", "parent" : "#", "text" : "Closed Folder" },
+    { "id" : "regression", "parent" : "#", "text" : "Regression Tests" },
+    { "id" : "functional", "parent" : "regression", "text" : "Functional UI" },
+    { "id" : "auth", "parent" : "functional", "text" : "Authentication" },
+    { "id" : "login", "parent" : "auth", "text" : "Login testing" },
+    { "id" : "alt", "parent" : "auth", "text" : "Alternative login with Captcha and ..." },
+    { "id" : "smoke", "parent" : "#", "text" : "Smoke Senarios" },
+    { "id" : "item", "parent" : "smoke", "text" : "Item 420" },
+    { "id" : "scoob", "parent" : "smoke", "text" : "Scooby snacks" },
+    { "id" : "release", "parent" : "#", "text" : "Release Tests" },
+    { "id" : "v10", "parent" : "release", "text" : "V 1.0" },
+    { "id" : "sprint", "parent" : "v10", "text" : "Sprint 1" },
+    { "id" : "verify1", "parent" : "sprint", "text" : "Verify requirement 1" },
+    { "id" : "verify2", "parent" : "sprint", "text" : "Verify requirement 1" },
+    { "id" : "form1", "parent" : "sprint", "text" : "Form check sales" },
+    { "id" : "form2", "parent" : "sprint", "text" : "Form check subscribe" },
+    { "id" : "very", "parent" : "sprint", "text" : "Very improtant Quiz" },
+    { "id" : "not", "parent" : "sprint", "text" : "Not so important one" },
+    { "id" : "sprint2", "parent" : "v10", "text" : "Sprint 2" }
   ]
 }
